@@ -25,6 +25,7 @@ public class BaseClass {
 	public ExtentTest log;
 	public String methodName;
 
+	//It will run before suite
 	@BeforeSuite
 	public void setUpSuite() {
 		edp = new ExcelDataProvider();
