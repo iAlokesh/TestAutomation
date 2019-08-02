@@ -20,6 +20,7 @@ public class BaseClass {
 
 	protected WebDriver driver;
 	protected ExcelDataProvider edp;
+	protected ExcelReader ereader;
 	public ConfigurationClass cc;
 	public ExtentReports er;
 	public ExtentTest log;

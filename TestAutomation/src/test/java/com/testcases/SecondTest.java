@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.pageobjects.GoogleSearchPage;
 import com.utilities.BaseClass;
+import com.utilities.ExcelReader;
 
 public class SecondTest extends BaseClass{
 	
@@ -17,10 +18,16 @@ public class SecondTest extends BaseClass{
 
 		log.info("Google Search");
 
-		gsp.googleSearch(edp.getData("Sheet1", 1, 0));
+		//gsp.googleSearch(edp.getData("Sheet1", 1, 0));
+		gsp.googleSearch(edp.getDataFromTestcasePriority("Flag",2));
 		Thread.sleep(5000);
 
 		log.pass("Google search done successfully");		
+	}
+	
+	@Test
+	public void parameterTest() {
+		
 	}
 
 }

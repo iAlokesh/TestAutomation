@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testcases.DemoTest">
+      <class name="com.testcases.SecondTest">
         <methods>
-          <include name="demoTest"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDown"/>
+          <include name="secondTest"/>
           <include name="setUp"/>
+          <include name="reportInitialize"/>
           <include name="setUpSuite"/>
         </methods>
-      </class> <!-- com.testcases.DemoTest -->
+      </class> <!-- com.testcases.SecondTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
