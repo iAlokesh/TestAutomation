@@ -46,7 +46,6 @@ public class Annotation {
       } else { 
          System.out.println("Test1 Failed"); 
       } 
-      //driver.close(); 
    }
 	
    @Then("^Relogin option should be available$") 
