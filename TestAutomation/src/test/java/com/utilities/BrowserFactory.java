@@ -15,7 +15,6 @@ public class BrowserFactory {
 		if (browserName.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
-			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		}
 		
 		else if (browserName.equalsIgnoreCase("Chrome")) {

@@ -28,5 +28,4 @@ public class ConfigurationClass {
 	public String getAppURL() {
 		return p.getProperty("appURL");
 	}
-	
 }

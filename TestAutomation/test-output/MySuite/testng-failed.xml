@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]">
+  <test name="MyTest(failed)">
+    <classes>
+      <class name="com.testcases.TestCompilation">
+        <methods>
+          <include name="TC001"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="reportInitialize"/>
+          <include name="setUpSuite"/>
+          <include name="tc002"/>
+        </methods>
+      </class> <!-- com.testcases.TestCompilation -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
